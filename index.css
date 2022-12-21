@@ -1,0 +1,92 @@
+ul{
+    list-style: none;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border: solid 5px black;
+
+}
+.container{
+    margin-left: 400px;
+    border: solid black;
+    max-width: 800px;
+}
+
+.imagen1:hover ~ img:nth-child(n){
+    visibility: hidden;
+   
+}
+.imagen1:hover{
+    height: 210px;
+    width: 210px;
+}
+.imagen2:hover ~ img:nth-child(n){
+    visibility: hidden;
+}
+.imagen2:hover{
+    height: 210px;
+    width: 210px;
+}
+.imagen3:hover ~ img:nth-child(n){
+    visibility: hidden;
+}
+.imagen3:hover{
+    height: 210px;
+    width: 210px;
+}
+.imagen4:hover ~ img:nth-child(n){
+    visibility: hidden;
+}
+.imagen4:hover{
+    height: 210px;
+    width: 210px;
+}
+.imagen5:hover ~ img:nth-child(n){
+    visibility: hidden;
+}
+.imagen5:hover{
+    height: 210px;
+    width: 210px;
+}
+.imagen2{
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.imagen3{
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.imagen4{
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+.imagen5{
+    margin-left: 400px;
+    margin-top: -100px;
+}
+.imagen1:hover{
+    border: solid 10px red;
+}
+.imagen2:hover{
+    border: solid 10px red;
+}
+
+.imagen3:hover{
+    border: solid 10px red;
+}
+
+.imagen4:hover{
+    border: solid 10px red;
+}
+
+.imagen5:hover{
+    border: solid 10px red;
+}
+
+
+
+
+
